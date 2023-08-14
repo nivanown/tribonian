@@ -1,0 +1,997 @@
+@media (max-width: 1300px) {
+
+[class*=__container] {
+	max-width: 960px;
+}
+
+.header__logo .logo__img {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 10px 0 0 0;
+	width: 130px;
+	height: 110px;
+	border-radius: 0 0 10px 10px;
+}
+
+.header__logo .logo__img img {
+	width: 80px;
+}
+
+.logo__img {
+	margin: 0 20px 0 0;
+	width: 80px;
+}
+
+.logo__img img {
+	width: 100%;
+}
+
+.logo__text span {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.header__mail {
+	margin-left: 0;
+}
+
+.mail {
+	padding: 0 0 0 30px;
+}
+
+.mail__address {
+	margin: 0 0 10px;
+	font-size: 16px;
+}
+
+.mail__address:after {
+	bottom: -3px;
+	left: 0;
+}
+
+.mail__text {
+	font-size: 12px;
+}
+
+.phone {
+	padding: 0 0 0 24px;
+}
+
+.phone__number {
+	margin: 0 0 10px;
+	font-size: 20px;	
+}
+
+.phone__work {
+	font-size: 12px;
+}
+
+.about {
+	border-radius: 0 0 50px 50px;
+}
+
+.about__staff-info {
+	margin: 0 30px 0 0;
+}
+
+.staff-info {
+	width: 500px;
+}
+
+.about__description {
+	padding: 160px 0 100px;
+}
+
+.about__title {
+	font-size: 30px;
+	line-height: 45px;
+}
+
+.staff-info p {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.staff-info p br { 
+	display: none;
+	}
+
+.about__photo {
+	width: 750px;
+}
+
+.staff-info_line-dec:after {
+	width: 240px;
+	height: 75px;
+	background-size: 100%;
+}
+
+.title {
+	font-size: 40px;
+	line-height: 50px;
+}
+
+.title_dec-bg:after {
+	width: 190px;
+	height: 153px;
+}
+
+.catalog__description {
+	padding: 40px;
+}
+
+.video-tour__container {
+	padding: 0 15px;
+}
+
+.look__container {
+	padding: 0 15px;
+}
+
+.reviews {
+	gap: 48px 15px;
+}
+
+.reviews__description {
+	padding: 0 30px;
+}
+
+.reviews__photo {
+	width: 220px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.play-btn_sm-size {
+	width: 68px;
+	height: 68px;
+}
+
+.mov-panel__play-btn {
+	margin: 0 15px 0 0;
+}
+
+.play-btn_sm-size:before {
+	left: 27px;
+}
+
+.requirements {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.expectation {
+	padding: 100px 0;
+	border-radius: 0 0 50px 50px;
+}
+
+.interview-form {
+	padding: 70px 170px 70px 30px;
+	border-radius: 10px;
+}
+
+.interview-form__checkbox {
+	margin: 0;
+}
+
+.interview-form__photo {
+	width: 260px;
+}
+
+.interview-form__photo img {
+	width: 100%;
+}
+
+.field-input label {
+	left: 30px;
+}
+
+input[type="tel"], 
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+	padding: 0 30px;
+}
+
+.field-textarea label {
+	top: 20px;
+	left: 30px;
+}
+
+textarea {
+	padding: 20px 30px;
+}
+
+.sub-title {
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.success {
+	border-radius: 0 0 50px 50px;
+}
+
+.success__description {
+	padding: 160px 0;
+}
+
+.success__photo {
+	width: 600px;
+	right: -220px;
+}
+
+.footer__mail {
+	margin: 0;
+}
+
+}
+
+@media (max-width: 1050px) {
+
+[class*=__container] {
+	max-width: 100%;
+}
+
+.cursor-icon {
+	display: block;
+}
+
+.about__photo {
+	width: 650px;
+	right: 10px;
+}
+
+.offers {
+	padding: 70px 0 0;
+}
+
+.catalog {
+	display: flex;
+	flex-wrap: inherit;
+	gap: 0 15px;
+	margin: 0 -15px;
+	padding: 0 15px;
+	overflow-x: scroll;
+	white-space: nowrap;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	}
+
+.catalog::-webkit-scrollbar { 
+	width: 0; 
+	height: 0;
+	background: transparent;
+}
+
+.catalog__item {
+	width: 350px;
+	min-width: 350px;
+	white-space: normal;
+	height: 350px;
+}
+
+.catalog__title {
+	font-size: 22px;
+	line-height: 30px;
+}
+
+.catalog__title br { 
+	display: none;
+}
+
+.catalog p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.catalog p br {
+	display: none;
+}
+
+.look {
+	padding: 70px 0 0;
+}
+
+.reviews {
+	display: flex;
+	flex-wrap: inherit;
+	gap: 0 15px;
+	margin: 0 -15px;
+	padding: 0 15px;
+	overflow-x: scroll;
+	white-space: nowrap;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	}
+
+.reviews::-webkit-scrollbar { 
+	width: 0; 
+	height: 0;
+	background: transparent;
+}
+
+.reviews__item {
+	width: 370px;
+	min-width: 370px;
+	min-height: 430px;
+	white-space: normal;
+}
+
+.reviews__description {
+	padding: 0 60px;
+}
+
+.video-tour {
+	padding: 70px 0;
+}
+
+.video-tour__poster {
+	margin: 0 0 50px;
+}
+
+.poster img {
+	border-radius: 10px;
+}
+
+.poster__play-btn {
+	width: 70px;
+	height: 70px;
+}
+
+.poster__play-btn:before {
+	width: 18px;
+	height: 21px;
+	left: 27px;
+	background: url(../img/bg/play-sm.svg) center no-repeat;
+}
+
+.expectation {
+	padding: 70px 0;
+}
+
+.requirements {
+	display: flex;
+	flex-wrap: inherit;
+	gap: 0 15px;
+	margin: 0 -15px;
+	padding: 0 15px;
+	overflow-x: scroll;
+	white-space: nowrap;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	}
+
+.requirements::-webkit-scrollbar { 
+	width: 0; 
+	height: 0;
+	background: transparent;
+}
+
+.requirements__item {
+	padding: 30px 30px 110px;
+	width: 320px;
+	min-width: 320px;
+	white-space: normal;
+	border-radius: 10px;
+}
+
+.requirements__item p {
+	line-height: 26px;
+}
+
+.requirements__number {
+	left: 30px;
+}
+
+.requirements__icon {
+	right: 30px;
+}
+
+.title {
+	margin: 0 0 30px;
+}
+
+.join {
+	padding: 70px 0 0;
+}
+
+.join__title {
+	margin: 0 0 10px;
+}
+
+.interview-form {
+	padding: 50px;
+}
+
+.interview-form__photo {
+	display: none;
+}
+
+.success__title {
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.success__description {
+	padding: 160px 0 100px;
+}
+
+.success__description p {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.success__phone {
+	font-size: 30px;
+}
+
+.success__photo {
+	width: 500px;
+	right: 0;
+}
+
+.footer {
+	padding: 50px 0;
+}
+
+}
+
+@media (max-width: 960px) {
+
+.video-tour__poster {
+	height: 400px;
+}
+
+.video-tour__poster a {
+	height: 100%;
+}
+
+.video-tour__poster img {
+	height: 100%;
+	object-fit: cover;
+}
+
+}
+
+@media (max-width: 900px) { 
+
+.about__title {
+	font-size: 26px;
+	line-height: 40px;
+}
+
+.staff-info {
+	border-radius: 0 10px 0 10px;
+}
+
+.staff-info__top-panel {
+	padding: 25px;
+}
+
+.staff-info p {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.staff-info__bottom-panel {
+	padding: 25px;
+	border-radius: 0 10px 0 10px;
+}
+
+.btn {
+	max-width: 300px;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.interview-form__btn {
+	max-width: 100%;
+}
+
+.about__photo {
+	width: 450px;
+}
+
+.title {
+	font-size: 34px;
+	line-height: 44px;
+}
+
+.sub-title {
+	font-size: 22px;
+	line-height: 30px;
+}
+
+.interview-form {
+	padding: 30px;
+}
+
+}
+
+@media (max-width: 840px) { 
+
+.logo__img {
+	width: 60px;
+}
+
+.header__logo .logo__img {
+	margin: 0 15px 0 0;
+	width: 100px;
+	height: 90px;
+}
+
+.header__logo .logo__img img {
+	width: 60px;
+}
+
+.logo__text span {
+	font-size: 10px;
+	line-height: 16px;
+}
+
+.mail__address {
+	font-size: 14px;
+}
+
+.mail__text {
+	font-size: 10px;
+}
+
+.phone__number {
+	font-size: 14px;	
+}
+
+.phone__work {
+	padding: 0 0 0 15px;
+	font-size: 10px;
+}
+
+.phone__work:before {
+	left: 0;
+}
+
+.about__description {
+	padding: 120px 0 100px;
+}
+
+.interview-form__content form {
+	gap: 0 10px;
+}
+
+.success__photo {
+	width: 400px;
+	right: 0;
+}
+
+}
+
+@media (max-width: 809px) {
+
+.interview-form__content form {
+	grid-template-columns: repeat(1, 1fr);
+	gap: 10px 10px;
+}
+
+.interview-form__content fieldset:first-child .interview-form__list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px 10px;
+}
+
+.interview-form__content fieldset:first-child .interview-form__list li {
+	margin: 0;
+}
+
+label {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+input[type="tel"], 
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+	padding: 25px;
+	height: 70px;
+}
+
+.field-input label {
+	left: 25px;
+}
+
+.field-textarea label {
+	left: 25px;
+}
+
+textarea {
+	padding: 20px 25px;
+}
+
+.btn {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.btn br {
+	display: none;
+}
+
+.interview-form__checkbox {
+	justify-content: center;
+}
+
+}
+
+@media (max-width: 767px) {
+
+.btn {
+	padding: 23px 25px;
+	max-width: 100%;
+}
+
+.about {
+	border-radius: 0 0 20px 20px;
+}
+
+.about__description {
+	padding-bottom: 30px;
+}
+
+.about__title br { 
+	display: none;
+	}
+
+.about__info-col {
+	display: block;
+}
+
+.about__btn { 
+	margin: 0;	
+}
+
+.staff-info {
+	margin: 0 0 30px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+.staff-info p {
+	font-size: 16px;
+}
+
+.staff-info_line-dec:after {
+	display: none;
+}
+
+.about__photo {
+	display: none;
+}
+
+.video-tour__poster {
+	height: 300px;
+}
+
+.expectation {
+	border-radius: 0 0 20px 20px;
+}
+
+.interview-form {
+	padding: 25px;
+}
+
+.hystmodal .hystmodal__window {
+	padding: 25px;
+	border-radius: 10px;
+}
+
+.hystmodal__wrap {
+	padding: 0 36px;
+}
+
+.hystmodal .hystmodal__close {
+	right: -23px;
+}
+
+.success__photo {
+	display: none;
+}
+
+.success {
+	border-radius: 0 0 20px 20px;
+}
+
+.success__description {
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.success__phone {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.success__photo {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	right: -60px;
+}
+
+}
+
+@media (max-width: 680px) { 
+
+.logo__img {
+	margin: 0;
+}
+
+.logo__text span {
+	display: none;
+}
+
+.title {
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.title_dec-bg:after {
+	width: 100px;
+	height: 81px;
+}
+
+.title br {
+	display: none;
+}
+
+.reviews__item {
+	width: 300px;
+	min-width: 300px;
+}
+
+.reviews__description {
+	padding: 0 30px;
+}
+
+.requirements__item {
+	padding: 25px 25px 70px;
+	width: 280px;
+	min-width: 280px;
+	min-height: 200px;
+}
+
+.requirements__item p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.requirements__number {
+	font-size: 14px;
+	left: 25px;
+}
+
+.requirements__icon {
+	width: 60px;
+	right: 25px;
+}
+
+.requirements__icon img {
+	width: 100%;
+}
+
+.interview-form__content fieldset:first-child .interview-form__list {
+	grid-template-columns: repeat(1, 1fr);
+}
+
+}
+
+@media (max-width: 520px) { 
+
+.mail {
+	display: none;
+}
+
+.about__title {
+	font-size: 22px;
+	line-height: 34px;
+}
+
+.staff-info__top-panel {
+	padding: 20px;
+}
+
+.staff-info__bottom-panel {
+	padding: 20px;
+}
+
+textarea {
+	height: 150px;
+}
+
+.success__title br {
+	display: none;	
+}
+
+.success__description p br {
+	display: none;
+}
+
+.footer {
+	padding: 30px 0;
+}
+
+}
+
+@media (max-width: 460px) { 
+
+.sub-title br { 
+	display: none;
+}
+
+.title {
+	font-size: 26px;
+	line-height: 36px;
+}
+
+.sub-title {
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.checkbox label a {
+	text-decoration: underline;
+}
+
+.checkbox label a:after {
+	display: none;
+}
+
+.video-tour__poster {
+	height: 200px;
+}
+
+.success__title {
+	font-size: 26px;
+	line-height: 36px;
+}
+
+.success__description p {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.success__phone {
+	font-size: 26px;
+	line-height: 36px;
+}
+
+.success__phone:before {
+	top: 4px;
+}
+
+.success__phone a:after {
+	bottom: 0;
+}
+
+}
+
+@media (max-width: 420px) { 
+
+.hystmodal__wrap {
+	padding: 0 15px;
+}
+
+.hystmodal .hystmodal__close {
+	width: 12px;
+	height: 12px;
+	top: 8px;
+	right: 8px;
+	background: url(../img/bg/close-icon-green.svg) center no-repeat;
+  	background-size: 100%;
+}
+
+.hystmodal .title {
+	margin: 0 0 20px;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.hystmodal p {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+}
+
+@media (max-width: 390px) { 
+
+.catalog__item {
+	width: 280px;
+	min-width: 280px;
+	min-height: 300px;
+}
+
+.catalog__photo img {
+	border-radius: 10px;
+}
+
+.catalog__description {
+	padding: 25px;
+}
+
+.catalog__title {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.catalog p {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.field-input label {
+	right: 25px;
+}
+
+.field-textarea label {
+	right: 25px;
+}
+
+.success__title {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.success__description p {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.success__photo {
+	width: 300px;
+	right: -40px;
+}
+
+}
+
+@media (max-width: 360px) { 
+
+.interview-form {
+	padding: 15px;
+}
+
+label {
+	line-height: 18px;
+}
+
+.btn {
+	padding: 20px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.about__title {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.staff-info p {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.title {
+	font-size: 22px;
+	line-height: 32px;
+}
+
+.reviews__item {
+	width: 280px;
+	min-width: 280px;
+}
+
+.reviews__description {
+	padding: 0 20px;
+}
+
+}
